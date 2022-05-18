@@ -2,15 +2,15 @@
 #include <cstdlib>
 
 void finalGradeCalculator(){
-   char* input = new char[6];
+   char* input = new char[8];
   printf("What do you currently have in the class?(No percent sign please <3 )");
-  fgets(input,5,stdin);
+  fgets(input,7,stdin);
   float grade = atoi(input);
   printf("What would you like to get in the class?");
-   fgets(input,5,stdin);
+   fgets(input,7,stdin);
   float want = atoi(input);
   printf("Your final is worth what percent of the class?");
-   fgets(input,5,stdin);
+   fgets(input,7,stdin);
   float finale = atoi(input);
   finale /= 100;
 
